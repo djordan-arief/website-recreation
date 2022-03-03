@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* Container */
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+/* main logo */
+.main-logo{
+    background-image: url('background.png');
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-history{
+    margin-top: 15px;
+}
+
+
+
+
+/* A history of everything you copy */
+.history{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 400px;
+    
+}
+
+.history-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+
+.history h2{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+/* Keep track of your snippets */
+.track-snippets{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 370px;
+    top: 530px;
+}
+
+.track-snippets h3{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.track-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+
+
+/* Laptop */
+.Laptop{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 660px;
+}
+
+.Laptop-container img{
+    width: 70%;
+    height: 70%;
+}
+
+.laptop-avantages{
+    margin-right: 130px;
+    margin-left: 0;
+}
+
+.quick-search{
+    position: relative; 
+    bottom: 70px;
+    
+}
+
+.quick-search h3{
+    font-weight: 100;
+}
+
+.quick-search small{
+    opacity: 0.6;
+    
+}
+
+.iCloud-sync{
+    position: relative;
+    bottom: 30px;
+}
+
+.iCloud-sync h3{
+    font-weight: 100;
+}
+
+.iCloud-sync small{
+    opacity: 0.6;
+}
+
+.complete-history{
+    position: relative;
+    top: 10px; 
+}
+
+.complete-history h3{
+    font-weight: 100;
+}
+
+.complete-history small{
+    opacity: 0.6;
+}
+
+
+.access-clipboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1100px;
+    left: 370px;
+}
+
+.access-clipboard h3{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;   
+    margin-bottom: 15px;
+}
+
+.access-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+}
+
+/* ipad */
+.ipad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1250px;
+    left: 150px;
+}
+.ipad img{
+    width: 70%;
+    height: 70%;
+}
+
+
+
+
+/* Companies logo */
+.company-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1650px;
+    left: 150px;
+    
+}
+
+.company-logo img{
+    width: 12%;
+    height: 12%;
+    margin: 50px;
+
+}
+
+/* Clipboard iOS and Mac */
+.clipboard-ios-mac{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1800px;
+    left: 400px;
+    
+}
+
+.clipboard-ios-mac h2{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    opacity: 0.6;
+}
+
+.download-div{
+    position: relative; 
+    top: 50px;
+}
+
+.iOS{
+    padding: 10px;
+    border-radius: 0.9rem;
+    margin: 10px;
+    width: 150px;
+    background-color: #20B2AA;
+    color: white;
+}
+
+.iOS:hover{
+    background-color: #7FFFD4;
+}
+
+.Mac{
+    padding: 10px;
+    border-radius: 0.9rem;
+    margin: 10px;
+    width: 150px;
+    background-color: #7B68EE;
+    color: white;
+}
+
+.Mac:hover{
+    background-color: #8A2BE2;
+}
+
+/* Bottom information */
+.bottom-information{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    background-color: gray;
+    position: absolute;
+    top: 2100px;
+}
+
+.website-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    left: 100px;
+    top: 10px;
+
+}
+
+.website-information small{
+    margin: 20px;
+}
+
+.website-information small:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.social-media{
+    position: relative; 
+    top: 10px;
+    left: 300px;
+    cursor: pointer;
+   
+}
+
+.social-media svg{
+    margin: 20px;
+}
+
+
+

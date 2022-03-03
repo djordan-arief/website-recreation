@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+/* Container */
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('background.svg');
+    display: flex;
+    position: relative; 
+}
+
+/* Content */
+.content-container{
+    width: 50%;
+    height: 100vh;
+    position: relative; 
+}
+
+.logo-container{
+    margin: 30px;
+    position: absolute;
+    left: 50px;
+
+}
+
+.content{
+    width: 400px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.h1{
+    color: pink;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.h2{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.h3{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+p{
+    color: pink;
+    margin-top: 40px;
+    opacity: 0.8;
+}
+
+.input-container{
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+    display: flex; 
+    
+}
+
+.input-container input{
+    font-size: 15px;
+    height: 30px;
+    width: 350px;
+    padding: 20px;
+    background-color: #FFF5EE;
+    color: pink; 
+    border: 1px solid black; 
+    border-radius: .5rem;
+    outline: none;
+}
+
+.icon{
+    width: 45px;
+    height: 45px;
+    background-color: pink;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: .5rem;
+
+    
+}
+
+
+/* image */
+.image-container img{
+    height: 100vh;
+    position: absolute;
+    right: 0;
+}
+
+
+/* error */
+#show-error{
+    position: relative;
+    top: 50px;
+    right: 370px;
+}
